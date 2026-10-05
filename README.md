@@ -12,7 +12,7 @@ Tools: Microsoft Excel, Git, GitHub.
 
 Dataset: [original CSV](data/raw/supply_chain_dataset.csv); [Excel import](workbook/supply_chain_dataset_import.xlsx).
 
-Project documents: [Proposal](docs/PERSONAL%20PROJECT%20PROPOSAL.md) | [Project management tracker](docs/PROJECT%20MANAGEMENT%20TRACKER.md).
+Project documents: [Proposal](docs/PERSONAL%20PROJECT%20PROPOSAL.md) | [Project management tracker](docs/PROJECT%20MANAGEMENT%20TRACKER.odt).
 
 PM-01: Project Planning completed.
 Next: PM-02 Dataset Preparation.
@@ -38,3 +38,11 @@ Cleaned files: [processed CSV](data/processed/supply_chain_dataset_cleaned.csv);
 
 PM-04: Data Cleaning completed.
 Next: PM-05 Data Validation.
+
+## PM-05 — Data Validation
+Validated the cleaned CSV and Excel workbook against the raw dataset. All 91,250 records and 15 fields match; no blanks, malformed values, duplicate rows, duplicate date/SKU/warehouse keys, invalid flags, negative values, or unit prices below unit costs were found. Each of the 250 SKU/warehouse pairs has 365 daily records, with 250 records per date.
+
+The missing 2024-12-31 record and all-zero `Stockout_Flag` remain documented dataset limitations, not cleaning errors.
+
+PM-05: Data Validation completed.
+Next: PM-06 Formula Development.
