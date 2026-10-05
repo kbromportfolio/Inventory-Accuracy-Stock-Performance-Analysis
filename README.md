@@ -56,3 +56,13 @@ Forecast coverage assumes the forecast represents daily demand. Reorder status i
 
 PM-06: Formula Development completed.
 Next: PM-07 Inventory Analysis.
+
+## PM-07 — Inventory Analysis
+Added SKU, warehouse, stock-risk, and monthly-trend analyses to the Excel workbook. The summaries cover 50 SKUs, 5 warehouses, 250 SKU/warehouse pairs, and 12 months. The latest available inventory snapshot is 2024-12-30.
+
+The stock-risk screen flags 15 SKU/warehouse pairs at or below their reorder point and 2 below estimated lead-time demand (one pair meets both conditions). These are screening indicators, not confirmed stockouts. Inventory averages use daily snapshots; sales and demand are treated as daily activity.
+
+Workbook: [supply chain analysis](workbook/supply_chain_analysis.xlsx).
+
+PM-07: Inventory Analysis completed.
+Next: PM-08 PivotTable Analysis.
