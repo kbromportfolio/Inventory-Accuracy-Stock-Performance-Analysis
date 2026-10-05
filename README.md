@@ -46,3 +46,13 @@ The missing 2024-12-31 record and all-zero `Stockout_Flag` remain documented dat
 
 PM-05: Data Validation completed.
 Next: PM-06 Formula Development.
+
+## PM-06 — Formula Development
+Created an Excel analysis workbook with formula-based measures for inventory value, sales value, forecast error, absolute forecast error, inventory-to-reorder-point gap, reorder status, and forecast coverage days. Added a formula guide with definitions and interpretation limits. The workbook is set to recalculate formulas when opened in Excel.
+
+Workbook: [supply chain analysis](workbook/supply_chain_analysis.xlsx).
+
+Forecast coverage assumes the forecast represents daily demand. Reorder status is an indicator only, not evidence of an actual stockout; inventory and sales values are estimates based on the dataset's unit cost and price.
+
+PM-06: Formula Development completed.
+Next: PM-07 Inventory Analysis.
