@@ -97,3 +97,15 @@ Workbook: [supply chain analysis](workbook/supply_chain_analysis.xlsx).
 
 PM-10: Dashboard completed.
 Next: PM-11 Findings and Recommendations.
+
+## PM-11 — Findings & Recommendations
+Added a findings and recommendations sheet to the Excel workbook, documenting the late-summer/fall increase in monthly forecast WAPE, latest-date SKU/warehouse reorder and lead-time-demand screening exceptions, similar warehouse-level summary results, the estimated latest inventory value, and the dataset limits affecting stockout and supplier-service analysis.
+
+The sheet includes the full 15-pair latest-date screening watchlist and prioritizes verification of SKU_44 at WH_3 (both screening thresholds) and SKU_50 at WH_4 (below estimated lead-time demand). Recommendations call for checking physical stock and inbound orders before intervention, reviewing forecast errors by SKU and month, validating inventory valuation, and obtaining count and delivery-event data before claiming inventory accuracy or supplier performance.
+
+These thresholds are screening indicators, not confirmed stockouts; the dataset does not establish that any flagged item was unavailable.
+
+Workbook: [supply chain analysis](workbook/supply_chain_analysis.xlsx).
+
+PM-11: Findings & Recommendations completed.
+Next: PM-12 Documentation and Final Review.
