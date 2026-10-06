@@ -87,3 +87,13 @@ Workbook: [supply chain analysis](workbook/supply_chain_analysis.xlsx).
 
 PM-09: KPI Development completed.
 Next: PM-10 Dashboard Development.
+
+## PM-10 — Dashboard
+Created an interactive Excel dashboard with five full-period KPI cards, three PivotCharts, and Warehouse and Month slicers. Both slicers are connected to all five PivotTables, so their selections filter the dashboard charts. KPI cards remain full-period summaries and do not change with slicer selections.
+
+The dashboard links to the validated KPI analysis and PivotTables. Reorder measures remain screening indicators; the dataset does not support a confirmed stockout rate.
+
+Workbook: [supply chain analysis](workbook/supply_chain_analysis.xlsx).
+
+PM-10: Dashboard completed.
+Next: PM-11 Findings and Recommendations.
