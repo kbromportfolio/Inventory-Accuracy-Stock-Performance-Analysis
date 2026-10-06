@@ -60,7 +60,7 @@ Next: PM-07 Inventory Analysis.
 ## PM-07 — Inventory Analysis
 Added SKU, warehouse, stock-risk, and monthly-trend analyses to the Excel workbook. The summaries cover 50 SKUs, 5 warehouses, 250 SKU/warehouse pairs, and 12 months. The latest available inventory snapshot is 2024-12-30.
 
-The stock-risk screen flags 15 SKU/warehouse pairs at or below their reorder point and 2 below estimated lead-time demand (one pair meets both conditions). These are screening indicators, not confirmed stockouts. Inventory averages use daily snapshots; sales and demand are treated as daily activity.
+The latest stock-risk screen flags 14 SKU/warehouse pairs at or below their reorder point and 2 below estimated lead-time demand (one pair meets both conditions; 15 pairs meet at least one threshold). These are screening indicators, not confirmed stockouts. Inventory averages use daily snapshots; sales and demand are treated as daily activity.
 
 Workbook: [supply chain analysis](workbook/supply_chain_analysis.xlsx).
 
@@ -74,4 +74,16 @@ Added three native PivotCharts: a monthly sales-versus-forecast line chart, a wa
 Workbook: [supply chain analysis](workbook/supply_chain_analysis.xlsx). Refresh PivotTables after changing the source data.
 
 PM-08: PivotTable Analysis completed.
-Next: PM-09 Dashboard Development.
+Next: PM-09 KPI Development.
+
+## PM-09 — KPI Development
+Added a formula-driven KPI summary to the Excel workbook, covering SKU and warehouse counts, total and average daily sales, average inventory per daily SKU/warehouse record, latest-date inventory and estimated value, reorder-point screening rates, latest SKU/warehouse risk counts, and overall forecast WAPE.
+
+Validated the measures against the source records and existing summaries. The reporting period is 2024-01-01 to 2024-12-30: 1,829,979 units sold across 50 SKUs and 5 warehouses; latest inventory totals 114,019 units, with an estimated value of $1,404,610.84. Overall forecast WAPE is 11.9%. The at/below-reorder screening condition occurs in 5.5% of daily records; on the latest date, 14 of 250 SKU/warehouse pairs are at or below reorder and 2 are below estimated lead-time demand, with one pair meeting both conditions.
+
+`Stockout_Flag` is zero throughout the dataset, so an actual stockout rate is unavailable. Reorder and lead-time-demand measures are screening indicators, not confirmed stockouts.
+
+Workbook: [supply chain analysis](workbook/supply_chain_analysis.xlsx).
+
+PM-09: KPI Development completed.
+Next: PM-10 Dashboard Development.
