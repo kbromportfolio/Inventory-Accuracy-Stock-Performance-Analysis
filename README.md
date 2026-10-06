@@ -12,7 +12,7 @@ Tools: Microsoft Excel, Git, GitHub.
 
 Dataset: [original CSV](data/raw/supply_chain_dataset.csv); [Excel import](workbook/supply_chain_dataset_import.xlsx).
 
-Project documents: [Proposal](docs/PERSONAL%20PROJECT%20PROPOSAL.md) | [Project management tracker](docs/PROJECT%20MANAGEMENT%20TRACKER.odt).
+Project documents: [Proposal](docs/PERSONAL PROPOSAL.md) | [Project management tracker](docs/PROJECT MANAGEMENT TRACKER.odt).
 
 PM-01: Project Planning completed.
 Next: PM-02 Dataset Preparation.
@@ -65,4 +65,13 @@ The stock-risk screen flags 15 SKU/warehouse pairs at or below their reorder poi
 Workbook: [supply chain analysis](workbook/supply_chain_analysis.xlsx).
 
 PM-07: Inventory Analysis completed.
-Next: PM-08 PivotTable Analysis.
+
+## PM-08 — PivotTable Analysis
+Added a formula-based `Month` grouping key to the `Calculations` table and created five native Excel PivotTables: monthly units sold versus forecast, warehouse sales, average daily inventory by warehouse, daily reorder-status counts by warehouse, and SKU sales with average daily inventory.
+
+Added three native PivotCharts: a monthly sales-versus-forecast line chart, a warehouse sales column chart, and a 100% stacked reorder-status chart. The pivots summarize daily records; reorder-status counts are screening indicators, not confirmed stockouts. `Stockout_Flag` remains zero throughout the source data.
+
+Workbook: [supply chain analysis](workbook/supply_chain_analysis.xlsx). Refresh PivotTables after changing the source data.
+
+PM-08: PivotTable Analysis completed.
+Next: PM-09 Dashboard Development.
