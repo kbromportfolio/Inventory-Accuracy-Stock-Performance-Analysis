@@ -45,26 +45,22 @@ Important data limitations:
 These limitations are documented throughout the workbook and analysis rather than treated as data errors.
 
 ## Repository structure
-
-- **Data:** original source CSV (data/raw/supply_chain_dataset.csv) and cleaned CSV (data/processed/supply_chain_dataset_cleaned.csv)
-
-- **Documentation:** project proposal (docs/PERSONAL PROJECT PROPOSAL.md) and project tracker (docs/PROJECT MANAGEMENT TRACKER.odt)
-
-- **Reports:** Reports (Reports/) contains exported PNGs, listed below
-
-- **Workbooks:** analysis workbook (workbook/supply_chain_analysis.xlsx) and cleaned-data workbook (workbook/supply_chain_dataset_cleaned.xlsx)
+- **Data:** original [source CSV](data/raw/supply_chain_dataset.csv) and [cleaned CSV](data/processed/supply_chain_dataset_cleaned.csv)
+- **Documentation:** [project proposal](docs/PERSONAL%20PROJECT%20PROPOSAL.md) and [project tracker](docs/PROJECT%20MANAGEMENT%20TRACKER.odt)
+- **Reports:** exported PNG images in [Reports/](Reports/)
+- **Workbooks:** [analysis workbook](workbook/supply_chain_analysis.xlsx) and [cleaned-data workbook](workbook/supply_chain_dataset_cleaned.xlsx)
 
 Report images:
 
-- Executive summary (Reports/executive_summary.png)
-- Excel dashboard snapshot (Reports/supply_chain_dashboard.png)
-- Pivot analysis sheet (Reports/pivot_analysis.png)
-- Monthly units sold vs. forecast (Reports/monthly_sales_vs_forecast.png)
-- Units sold by warehouse(Reports/warehouse_sales.png)
-- Reorder status by warehouse (Reports/reorder_status_by_warehouse.png)
+- [Project workflow](Reports/project_workflow.png)
+- [Executive summary](Reports/executive_summary.png)
+- [Excel dashboard snapshot](Reports/supply_chain_dashboard.png)
+- [Pivot analysis sheet](Reports/pivot_analysis.png)
+- [Monthly units sold vs. forecast](Reports/monthly_sales_vs_forecast.png)
+- [Units sold by warehouse](Reports/warehouse_sales.png)
+- [Reorder status by warehouse](Reports/reorder_status_by_warehouse.png)
 
 ## Project methodology
-
 The project follows a structured workflow from planning through final documentation:
 
 ### PM-01 — Project Planning
@@ -116,7 +112,6 @@ This README completes the final documentation pass, summarizing the project purp
 The main analytical output is the Excel workbook at [workbook/supply_chain_analysis.xlsx](workbook/supply_chain_analysis.xlsx).
 
 The workbook contains:
-
 - formula-driven calculations
 - KPI summary sheets
 - PivotTables and PivotCharts
@@ -124,7 +119,6 @@ The workbook contains:
 - findings and recommendations sheet
 
 To use the workbook effectively:
-
 1. Open the Excel file.
 2. Refresh PivotTables if the source data has changed.
 3. Review the KPI summary for overall network health.
@@ -132,7 +126,6 @@ To use the workbook effectively:
 5. Check the findings sheet for the priority exception list and interpretation guidance.
 
 ## Key results
-
 The analysis produced the following headline figures for the covered reporting period:
 
 - Total units sold: 1,829,979
