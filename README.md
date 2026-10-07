@@ -46,12 +46,12 @@ These limitations are documented throughout the workbook and analysis rather tha
 
 ## Repository structure
 - **Data:** original [source CSV](data/raw/supply_chain_dataset.csv) and [cleaned CSV](data/processed/supply_chain_dataset_cleaned.csv)
-- **Documentation:** [project proposal](docs/PERSONAL%20PROJECT%20PROPOSAL.md) and [project tracker](docs/PROJECT%20MANAGEMENT%20TRACKER.odt)
+- **Documentation:** [project proposal](docs/PERSONAL PROJECT PROPOSAL.md) and [project tracker](docs/PROJECT MANAGEMENT TRACKER.odt)
+
 - **Reports:** exported PNG images in [Reports/](Reports/)
 - **Workbooks:** [analysis workbook](workbook/supply_chain_analysis.xlsx) and [cleaned-data workbook](workbook/supply_chain_dataset_cleaned.xlsx)
 
 Report images:
-
 - [Project workflow](Reports/project_workflow.png)
 - [Executive summary](Reports/executive_summary.png)
 - [Excel dashboard snapshot](Reports/supply_chain_dashboard.png)
