@@ -1,10 +1,15 @@
 ﻿# Inventory Accuracy & Stock Performance Analysis
 
 **Project Status:** Completed
+
 **Primary Tool:** Microsoft Excel
+
 **Supporting Tools:** Git & GitHub
-**Dataset:** Public supply-chain inventory dataset
+
+**Dataset:** Public supply-chain inventory 
+
 **Analysis Type:** Inventory risk, replenishment and forecast performance analysis
+
 
 This project evaluates inventory health, replenishment risk, and forecast performance using a daily supply chain dataset. The objective is to identify inventory risk signals, assess inventory coverage relative to demand, and provide a decision-support dashboard that highlights operational exceptions without overstating what the data can prove.
 
